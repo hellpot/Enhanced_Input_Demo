@@ -60,6 +60,11 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 		{
 			EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AMyCharacter::Move);
 		}
+
+		if (LookAction)
+		{
+			EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AMyCharacter::Look);
+		}
 	}
 }
 
@@ -81,5 +86,20 @@ void AMyCharacter::Move(const FInputActionValue& Value)
 		// 添加移动输入
 		AddMovementInput(ForwardDirection, MovementVector.Y);
 		AddMovementInput(RightDirection, MovementVector.X);
+	}
+}
+
+void AMyCharacter::Look(const FInputActionValue& Value)
+{
+	// 获取鼠标输入的 2D 向量
+	FVector2D LookVector = Value.Get<FVector2D>();
+
+	if (Controller != nullptr)
+	{
+		// 添加 Yaw 输入（左右转）
+		AddControllerYawInput(LookVector.X);
+		
+		// 添加 Pitch 输入（上下看，取反）
+		AddControllerPitchInput(-LookVector.Y);
 	}
 }

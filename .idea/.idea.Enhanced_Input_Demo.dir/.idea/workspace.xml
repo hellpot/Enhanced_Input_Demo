@@ -9,8 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3c7300e8-69f1-489f-bf59-7c1e06df6db0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Enhanced_Input_Demo.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Enhanced_Input_Demo.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/WASD/BP_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WASD/BP_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/WASD/wasdMove/4/E9/61TCFW18F9QFEPZ4HOME5B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/WASD/wasdMove/4/E9/61TCFW18F9QFEPZ4HOME5B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WASD/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WASD/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WASDCpp/BP_MyCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WASDCpp/BP_MyCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/MyCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +28,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../soft/epic/engine/UE_5.7/Engine/Source/Runtime/Engine/Private/KismetStringLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../soft/epic/engine/UE_5.7/Engine/Source/Runtime/Engine/Private/Pawn.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -36,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Uproject.Enhanced_Input_Demo.executor": "Run",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Uproject.Enhanced_Input_Demo.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Enhanced_Input_Demo" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -137,6 +141,7 @@
       <workItem from="1767450313041" duration="3000" />
       <workItem from="1767453853041" duration="742000" />
       <workItem from="1767547677808" duration="2179000" />
+      <workItem from="1767609838826" duration="3248000" />
     </task>
     <servers />
   </component>

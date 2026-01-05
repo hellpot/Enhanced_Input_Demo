@@ -25,6 +25,9 @@ protected:
 
 	// 移动输入回调
 	void Move(const FInputActionValue& Value);
+	
+	// 视角输入回调
+	void Look(const FInputActionValue& Value);
 
 public:
 	// 摄像机组件
@@ -40,4 +43,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
 	UInputAction* MoveAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Input")
+	UInputAction* LookAction;
 };
