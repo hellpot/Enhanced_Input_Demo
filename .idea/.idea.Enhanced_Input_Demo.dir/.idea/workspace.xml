@@ -9,9 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c7300e8-69f1-489f-bf59-7c1e06df6db0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Enhanced_Input_Demo.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Enhanced_Input_Demo.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/WASD/wasdMove.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WASD/wasdMove.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/WASDCpp/wasdcpp.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WASDCpp/wasdcpp.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/Enhanced_Input_Demo.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Enhanced_Input_Demo/Enhanced_Input_Demo.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +137,7 @@
       <workItem from="1767453853041" duration="742000" />
       <workItem from="1767547677808" duration="2179000" />
       <workItem from="1767609838826" duration="3248000" />
+      <workItem from="1768007438523" duration="1444000" />
     </task>
     <servers />
   </component>
